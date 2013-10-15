@@ -1,6 +1,6 @@
 ---
 applications:
-- name: Wordpress
+- name: wordpress
   memory: 128M
   instances: 1
   domain: cfapps.io
