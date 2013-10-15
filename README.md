@@ -7,6 +7,7 @@ CloudFoundry sample Wordpress install
 ### Configuring the CloudFoundry CLI
 ```
 gem install cf
+cf login [your-cloudfoundry-email]
 cf target api.run.pivotal.io
 cf space development
 ```
