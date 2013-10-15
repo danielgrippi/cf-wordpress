@@ -1,0 +1,14 @@
+---
+applications:
+- name: Wordpress
+  memory: 128M
+  instances: 1
+  domain: cfapps.io
+  path: .
+  services:
+    mysql-wordpress:
+      label: cleardb
+      provider: cleardb
+      version: n/a
+      plan: spark
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-apache-buildpack.git
